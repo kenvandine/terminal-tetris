@@ -20,6 +20,7 @@ description: |
   * **Proper Lock Delay**: A half-second delay after a piece touches a surface, allowing for last-second adjustments. (adjustable in Settings Menu)
   * **Bag Randomization**: A 7-bag randomization system ensures that all seven tetrominoes will appear in a random order before any are repeated.
 
+icon: snap/gui/terminal-tetris.png
 grade: stable
 confinement: strict
 platforms:
@@ -45,3 +46,4 @@ parts:
 apps:
   terminal-tetris:
     command: bin/terminal-tetris
+    desktop: meta/gui/terminal-tetris.desktop

@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Terminal Tetris
+Exec=terminal-tetris
+Icon=${SNAP}/meta/gui/terminal-tetris.png
+Type=Application
+Terminal=true
+Categories=Game;
