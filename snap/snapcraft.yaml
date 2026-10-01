@@ -38,7 +38,7 @@ parts:
     plugin: python
     source: .
     python-packages:
-      - terminal-tetris
+      - terminal_tetris
     override-prime: |
       craftctl default
       craftctl set version=$(grep ^Version $CRAFT_PRIME/lib/python3.12/site-packages/terminal_tetris-*.dist-info/METADATA  | awk '{print $2}')
@@ -46,4 +46,4 @@ parts:
 apps:
   terminal-tetris:
     command: bin/terminal-tetris
-    desktop: meta/gui/terminal-tetris.desktop
+    desktop: snap/gui/terminal-tetris.desktop
